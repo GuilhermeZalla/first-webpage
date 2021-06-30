@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/learning.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Mídias em HTML5</title>
+</head>
+
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <p>
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/paisagem-p.png" type="image/png">
+            <source media="(max-width: 800px)" srcset="images/paisagem-m.png" type="image/png">
+            <img src="images/paisagem-g.png" alt="imagem paisagem tamanho grande">
+        </picture>c
+    </p>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em <strong>HTML5</strong></p>
+    <audio preload="metadata" controls>
+        <source src="midia/Tatsuro Yamashita - Let's Kiss The Sun.mp3" type="audio/mpeg">
+        <p>Infelizmente o seu navegador não conseguiu reproduzir o áudio.</p>
+    </audio>
+    <hr>
+    <p>
+        Voltar para a página anterior <br>
+        <a href="página1.html" target="_self" rel="prev" hreflang="pt-br"><img src="images/voltar.png" alt="icone seta esquerda para voltar a página anterior"></a>
+    </p>
+    <p>
+        Voltar para a página principal <br>
+        <a href="main.html" target="_self" rel="prev" hreflang="pt-br"><img src="images/skip-back-button-50.png" alt="icone para a esquerda para retornar a página principal"></a>
+    </p>
+    <hr>
+    <p>
+        <small><em>desenvolvido por Guilherme Zalla</em></small>
+    </p>
+</body>
+
+</html>

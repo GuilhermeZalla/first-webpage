@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/learning.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Formatações</title>
+</head>
+
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <strong>termo em negrito</strong> usando a tag &lt;strong&gt; &lt;/strong&gt; que é uma tag semântica e recomendada no lugar da tag B (não semântica).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <em>termo em itálico</em> usando a tag &lt;em&gt; que também é uma tag semântica e recomendada no lugar da tag I (não semântica).</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag mark.
+    </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um<small> texto pequeno</small></p>. Lembrando que a tag para criar um texto grande, usando a tag &lt;big&gt; ficou em desuso, porém a tag &lt;small&gt; continua funcionando normalmente!
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indiciar que ele deve ser lido, mas não considerado.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois usando a tag semântica &lt;ins&gt;.</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3 usando a tag &lt;sup&gt;</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O usando a tag &lt;sub&gt;</p>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript <br>
+        <pre>
+            <code>
+                num = int(input('Digite um número'))
+                if num % 2 === 0:
+                    print(f'O número {num} é PAR')
+                else:
+                    print(f'O número {num} é Ímpar')
+                print('Fim do programa')
+            </code>
+        </pre>
+    </p>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro <strong>HTML para Legios:</strong>
+        <blockquote>
+            A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+        </blockquote>
+    </p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <hr>
+    <p>
+        Voltar para a página anterior <br>
+        <a href="página1.html" target="_self" rel="prev" hreflang="pt-br"><img src="images/voltar.png" alt="icone seta esquerda para voltar a página anterior"></a>
+    </p>
+    <p>
+        Voltar para a página principal <br>
+        <a href="main.html" target="_self" rel="prev" hreflang="pt-br"><img src="images/skip-back-button-50.png" alt="icone para a esquerda para retornar a página principal"></a>
+    </p>
+    <hr>
+    <p>
+        <small><em>desenvolvido por Guilherme Zalla</em></small>
+    </p>
+</body>
+
+</html>
